@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			split: false
+			split: true				// ERROR in vercel deployment: "An unexpected error happened when running this build."
 		})
 	}
 };
